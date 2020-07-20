@@ -1,14 +1,12 @@
 import random
 
-"""
-1. Bubble sort
-
-"""
 
 
 class SortingAlgorithms:
 
     """
+    1. Bubble sort
+
     https://realpython.com/sorting-algorithms-python/#the-bubble-sort-algorithm-in-python
 
     worst-case complexity of O(n2).
@@ -71,10 +69,6 @@ class SortingAlgorithms:
     Due to this limitation, you may not want to use merge sort to sort large lists in 
     memory-constrained hardware.
 
-    """
-
-    """
-    merge function receives two different sorted arrays
     """
     def merge(self,left, right):
         if len(left) == 0:
